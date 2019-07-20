@@ -9,11 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(path = "/controller")
 public class TestController {
-    @Autowired
-    Testtt testtt;
-    @GetMapping(path = "amir")
+    @GetMapping(path = "test")
     public ResponseEntity getResponse(){
-        testtt.serviceUrl();
         return ResponseEntity.ok("answer!!!!!!!");
     }
 }
