@@ -1,3 +1,24 @@
+*.sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings
+bin
+build
+target
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+.gradle
+.idea
+*.iml
+README.html
+**/target/**
+*.jar
+*.war
+>>>>>>> 760db633ac8401298b797742602e594e7d946726
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
