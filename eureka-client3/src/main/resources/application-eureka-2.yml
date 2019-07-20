@@ -1,0 +1,6 @@
+#spring:
+#  profiles: eureka-2
+#  application:
+#    name: eureka-2
+#server:
+#  port: 8762
